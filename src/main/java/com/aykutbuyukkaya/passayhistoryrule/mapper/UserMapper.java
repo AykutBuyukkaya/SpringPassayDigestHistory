@@ -1,6 +1,5 @@
 package com.aykutbuyukkaya.passayhistoryrule.mapper;
 
-import com.aykutbuyukkaya.passayhistoryrule.model.dto.UserDto;
 import com.aykutbuyukkaya.passayhistoryrule.model.entity.User;
 import com.aykutbuyukkaya.passayhistoryrule.model.request.CreateUserRequest;
 import com.aykutbuyukkaya.passayhistoryrule.model.request.PasswordChangeRequest;
@@ -16,7 +15,6 @@ public interface UserMapper {
 
     User fromCreateUserRequest(CreateUserRequest createUserRequest);
 
-    @Mapping(target = "password", source = "newPassword")
-    User fromPasswordChangeRequest(PasswordChangeRequest createUserRequest);
+
 
 }

@@ -2,7 +2,6 @@ package com.aykutbuyukkaya.passayhistoryrule.model.dto;
 
 import com.aykutbuyukkaya.passayhistoryrule.model.entity.User;
 import lombok.Data;
-import lombok.Value;
 
 import java.io.Serializable;
 
